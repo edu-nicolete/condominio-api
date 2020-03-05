@@ -1,23 +1,26 @@
 {
-  "name": "api",
+  "name": "api-node",
   "version": "1.0.0",
-  "main": "index.js",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "engines": {
+    "node": "4.7.0"
+  },
+  "author": "Eduardo Nicolete",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "mongoose": "^5.4.15",
-    "mysql": "^2.16.0"
+    "connect": "^3.6.6",
+    "consign": "^0.1.2",
+    "ejs": "^2.5.2",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.1",
+    "mysql": "^2.16.0",
+    "pg": "^7.8.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.10"
-  },
+  "devDependencies": {},
   "description": ""
 }
